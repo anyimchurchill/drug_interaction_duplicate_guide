@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 ROOT_DIR = Path(__file__).resolve().parent
-SOLUTION_FILE = ROOT_DIR / "solution" / "reference-solution.py"
+SOLUTION_FILE = ROOT_DIR / "reference-solution.py"
 
 
 @st.cache_resource
